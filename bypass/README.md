@@ -5,20 +5,13 @@
 ## Summary
 
 * [Php](#php)
-* [Exploit](#exploits)
-  * [Authentication Bypass](#authentication-bypass)
-  * [Extract length information](#extract-length-information)
-  * [Extract data information](#extract-data-information)
-* [Blind NoSQL](#blind-nosql)
-  * [POST with JSON body](#post-with-json-body)
-  * [POST with urlencoded body](#post-with-urlencoded-body)
-  * [GET](#get)
-* [MongoDB Payloads](#mongodb-payloads)
-* [References](#references)
+	* [Subida de archivo](#subida-de-archivos)
+	* [Content Type](#content-type)
+	* [Magic Number](#magic-number)
 
 ## Php
 
-### subida de archivo
+### Subida de archivo
 
 en ocaciones la web no nos permite subir directamente un archivo con extensión `.php` , pero quien sabe las politicas que
 tenga implementada ese servidor, existen algunas extensiones que pueden ser de utilidad
